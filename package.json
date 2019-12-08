@@ -1,0 +1,23 @@
+{
+  "name": "@ennexa/serialize-form",
+  "version": "1.0.0",
+  "description": "Serialize form fields into nested JSON in browser (similar to PHP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ennexa/serialize-form.git"
+  },
+  "keywords": [
+    "serialize",
+    "form"
+  ],
+  "author": "Joyce Babu <joyce@ennexa.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ennexa/serialize-form/issues"
+  },
+  "homepage": "https://github.com/Ennexa/serialize-form#readme"
+}
