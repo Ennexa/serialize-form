@@ -1,5 +1,6 @@
 function update(data, keys, value) {
   if (keys.length === 0) {
+    // Leaf node
     return value;
   }
 
@@ -11,12 +12,19 @@ function update(data, keys, value) {
     }
   }
 
+  // Try converting key to a numeric value
   let index = +key;
   if (!isNaN(index)) {
+    // We have a numeric index, make data a numeric array
+    // This will not work if this is a associative array 
+    // with numeric keys
     data = data || [];
     key = index;
   }
+  
+  // If none of the above matched, we have an associative array
   data = data || {};
+
   let val = update(data[key], keys, value);
   data[key] = val;
 
