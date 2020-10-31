@@ -1,6 +1,6 @@
-# serialize-form
-Serialize form fields into nested JSON in browser (similar to PHP)
+## Serialize FormData(HTML5 Object) to JSON
 
+Serialize form fields into nested JSON in browser (similar to PHP)
 
 ### 
 
